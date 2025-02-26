@@ -9,7 +9,7 @@
     <h1>Testing</h1>
     <script>
         async function testPost() {
-            let a = await fetch("/",{method: "POST"})
+            let a = await fetch('/',{method: "PUT"})
             let b = await a.text() 
             console.log(b)
         }
